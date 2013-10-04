@@ -22,6 +22,7 @@ Bundle 'vim-scripts/Better-CSS-Syntax-for-Vim'
 Bundle 'Pychimp/vim-luna'
 Bundle 'bling/vim-airline'
 Bundle "pangloss/vim-javascript"
+Bundle 'octol/vim-cpp-enhanced-highlight'
 
 " Command-T
 Bundle 'wincent/Command-T'
