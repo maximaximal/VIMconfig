@@ -43,9 +43,17 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+" Set the CTRL+S command
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
+
 " Configure Font
 if has('gui_running')
   set guifont=Inconsolata\ for\ Powerline\ 12
 endif
+
+" Activate line numbers everywhere
+set number
 
 filetype plugin indent on
