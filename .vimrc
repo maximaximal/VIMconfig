@@ -24,6 +24,7 @@ Bundle 'bling/vim-airline'
 Bundle "pangloss/vim-javascript"
 Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'vim-scripts/DoxygenToolkit.vim'
+Bundle 'othree/html5.vim'
 
 " Command-T
 Bundle 'wincent/Command-T'
