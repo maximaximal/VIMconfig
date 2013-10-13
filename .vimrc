@@ -23,6 +23,7 @@ Bundle 'Pychimp/vim-luna'
 Bundle 'bling/vim-airline'
 Bundle "pangloss/vim-javascript"
 Bundle 'octol/vim-cpp-enhanced-highlight'
+Bundle 'vim-scripts/DoxygenToolkit.vim'
 
 " Command-T
 Bundle 'wincent/Command-T'
