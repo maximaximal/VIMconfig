@@ -27,6 +27,7 @@ Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'othree/html5.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-notes'
+Bundle 'vim-scripts/utl.vim'
 
 " Command-T
 Bundle 'wincent/Command-T'
