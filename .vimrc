@@ -39,7 +39,7 @@ Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'othree/html5.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-notes'
-Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'luochen1990/rainbow'
 Bundle 'vim-scripts/a.vim'
 Bundle 'vim-scripts/utl.vim'
 
@@ -49,11 +49,8 @@ Bundle 'wincent/Command-T'
 " Set the Color Scheme
 colorscheme luna
 
-" Rainbow Paranthesis
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+" Rainbow Paranthesis 
+let g:rainbow_active = 1
 
 " Airline Config
 let g:airline_detect_modified=1
