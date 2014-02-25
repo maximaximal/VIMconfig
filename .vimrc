@@ -13,6 +13,9 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" Squirrel File Type Highlighting
+au BufNewFile,BufRead *.nut setf squirrel
+
 " let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
@@ -36,6 +39,8 @@ Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'othree/html5.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-notes'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'vim-scripts/a.vim'
 Bundle 'vim-scripts/utl.vim'
 
 " Command-T
@@ -43,6 +48,12 @@ Bundle 'wincent/Command-T'
 
 " Set the Color Scheme
 colorscheme luna
+
+" Rainbow Paranthesis
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 " Airline Config
 let g:airline_detect_modified=1
