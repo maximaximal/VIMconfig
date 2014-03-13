@@ -41,6 +41,7 @@ Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-notes'
 Bundle 'luochen1990/rainbow'
 Bundle 'vim-scripts/a.vim'
+Bundle 'vim-scripts/TeX-PDF'
 Bundle 'vim-scripts/utl.vim'
 
 " Command-T
