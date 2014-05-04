@@ -74,7 +74,7 @@ inoremap <silent> <C-S>         <C-O>:update<CR>
 
 " Configure Font
 if has('gui_running')
-  set guifont=Inconsolata\ 12
+  set guifont=Proggy\ Clean\ 12
 endif
 
 " Activate line numbers everywhere
