@@ -30,19 +30,18 @@ Bundle 'godlygeek/csapprox'
 Bundle 'Raimondi/delimitMate'
 Bundle 'docunext/closetag.vim'
 Bundle 'ervandew/supertab'
-Bundle 'vim-scripts/Better-CSS-Syntax-for-Vim'
 Bundle 'Pychimp/vim-luna'
 Bundle 'bling/vim-airline'
 Bundle "pangloss/vim-javascript"
 Bundle 'octol/vim-cpp-enhanced-highlight'
 Bundle 'vim-scripts/DoxygenToolkit.vim'
-Bundle 'othree/html5.vim'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-notes'
-Bundle 'luochen1990/rainbow'
 Bundle 'vim-scripts/a.vim'
-Bundle 'vim-scripts/TeX-PDF'
 Bundle 'vim-scripts/utl.vim'
+Bundle 'JulesWang/css.vim' 
+Bundle 'cakebaker/scss-syntax.vim'
+Bundle 'skammer/vim-css-color'
 
 " Command-T
 Bundle 'wincent/Command-T'
@@ -74,7 +73,7 @@ inoremap <silent> <C-S>         <C-O>:update<CR>
 
 " Configure Font
 if has('gui_running')
-  set guifont=Proggy\ Clean\ 12
+  set guifont=Inconsolata\ 12
 endif
 
 " Activate line numbers everywhere
